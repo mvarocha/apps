@@ -1,1 +1,53 @@
-body{background-color: black;}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    background: black;
+    flex-direction: column;
+    padding: 20px;
+}
+svg{
+    transition: 500ms;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+button{
+    cursor: pointer;
+}
+.content{
+    height: calc(100% - 30px);
+    display: flex;
+    align-items: center;
+}
+.apps svg{
+    cursor: pointer;
+}
+.apps svg:hover{
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.apps{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hidden{
+    display: none;
+}
+.back{
+    width: 80px;
+    height: 30px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+

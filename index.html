@@ -1,13 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marcus Apps</title>
     <link rel="stylesheet" href="static/style.css">
+    <script src="./static/app.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
+
 <body>
-    
+    <button class="back">
+        <i data-feather="arrow-left"></i>
+        <p>back</p>
+    </button>
+    <div class="content">
+        <div class="apps" id="apps">
+            <svg id="qrCode" onclick="qrCode()" width="50" height="50" viewBox="0 0 50 50" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <rect width="50" height="50" rx="10" fill="url(#paint0_linear_201_22)" />
+                <rect x="4.5" y="4.5" width="17" height="17" rx="5.5" stroke="white" stroke-width="3" />
+                <rect x="4.5" y="28.5" width="17" height="17" rx="5.5" stroke="white" stroke-width="3" />
+                <rect x="28.5" y="28.5" width="17" height="17" rx="5.5" stroke="white" stroke-width="3" />
+                <rect x="28.5" y="4.5" width="17" height="17" rx="5.5" stroke="white" stroke-width="3" />
+                <rect x="9" y="9" width="8" height="8" rx="2" fill="white" />
+                <rect x="9" y="33" width="8" height="8" rx="2" fill="white" />
+                <rect x="33" y="9" width="8" height="8" rx="2" fill="white" />
+                <defs>
+                    <linearGradient id="paint0_linear_201_22" x1="-6" y1="-28" x2="20" y2="42"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#1400FF" />
+                        <stop offset="1" stop-color="#00D1FF" />
+                    </linearGradient>
+                </defs>
+            </svg>
+
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="50" height="50" rx="10" fill="url(#paint0_linear_201_22)" />
+                <rect x="4.5" y="4.5" width="17" height="17" rx="5.5" stroke="white" stroke-width="3" />
+                <rect x="4.5" y="28.5" width="17" height="17" rx="5.5" stroke="white" stroke-width="3" />
+                <rect x="28.5" y="28.5" width="17" height="17" rx="5.5" stroke="white" stroke-width="3" />
+                <rect x="28.5" y="4.5" width="17" height="17" rx="5.5" stroke="white" stroke-width="3" />
+                <rect x="9" y="9" width="8" height="8" rx="2" fill="white" />
+                <rect x="9" y="33" width="8" height="8" rx="2" fill="white" />
+                <rect x="33" y="9" width="8" height="8" rx="2" fill="white" />
+                <defs>
+                    <linearGradient id="paint0_linear_201_22" x1="-6" y1="-28" x2="20" y2="42"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#1400FF" />
+                        <stop offset="1" stop-color="#00D1FF" />
+                    </linearGradient>
+                </defs>
+            </svg>
+
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="50" height="50" rx="10" fill="url(#paint0_linear_201_22)" />
+                <rect x="4.5" y="4.5" width="17" height="17" rx="5.5" stroke="white" stroke-width="3" />
+                <rect x="4.5" y="28.5" width="17" height="17" rx="5.5" stroke="white" stroke-width="3" />
+                <rect x="28.5" y="28.5" width="17" height="17" rx="5.5" stroke="white" stroke-width="3" />
+                <rect x="28.5" y="4.5" width="17" height="17" rx="5.5" stroke="white" stroke-width="3" />
+                <rect x="9" y="9" width="8" height="8" rx="2" fill="white" />
+                <rect x="9" y="33" width="8" height="8" rx="2" fill="white" />
+                <rect x="33" y="9" width="8" height="8" rx="2" fill="white" />
+                <defs>
+                    <linearGradient id="paint0_linear_201_22" x1="-6" y1="-28" x2="20" y2="42"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#1400FF" />
+                        <stop offset="1" stop-color="#00D1FF" />
+                    </linearGradient>
+                </defs>
+            </svg>
+        </div>
+    </div>
+    <script>
+        feather.replace()
+    </script>
 </body>
+
 </html>
